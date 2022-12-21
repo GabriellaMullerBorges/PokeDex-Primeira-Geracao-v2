@@ -1,0 +1,204 @@
+/* geral */
+
+html {
+	font-family: 'Open sans', 'sans-serif';
+	color: #373A3C;
+}
+
+a {
+	transition: .5s;
+}
+
+/* sidebar */
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #162025;
+	padding-top: 40px;
+	color: #FFF;
+}
+
+#sidebar h1 {
+	color: #FFF;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.sidebar-container a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.outros-links a:hover{
+	color: #6b6b6b;
+}
+
+#sessao-fogo a:hover{
+	color: #ad4949;
+}
+ #sessao-agua a:hover {
+	color: #006599
+}
+
+#sessao-grama a:hover{
+	color: #009933;
+}
+
+#sessao-eletrico a:hover{
+	color: #e5ff00;
+}
+
+.sidebar-container li {
+	padding: 20px;
+}
+
+.sidebar-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.logo-pokebola {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* conteudo */
+
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+	background-color: #313a3f;
+	color: #FFF;
+}
+
+.content h1, .content h2 {
+	color: #ad4949;
+	margin-bottom: 20px;
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+/* bem vindo */
+
+#sessao-bemvindo {
+	padding-left: 0;
+	background-color: #313a3f;
+	color: #FFF;
+	height: fit-content;
+}
+
+.sessao-bemvindo-content {
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+#sessao-bemvindo .banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+	border-bottom: 5px solid #162025;
+}
+
+#sessao-bemvindo h1 {
+	margin-top: 20px;
+}
+
+#sessao-bemvindo::after, #sessao-sobre::after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.sessao-minibanner {
+	width: 250px;
+	height: 200px;
+	background-image: url('../img/banner3.gif');
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-top: 15px;
+}
+
+.sessao-descricao {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+	height: fit-content;
+}
+
+.sessao-descricao p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.sessao-bemvindo-btn, form input[type=submit] {
+	background-color: #006599;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+/* sessao sobre */
+
+#sessao-sobre {
+	margin-top: 20px;
+}
+
+#sessao-sobre .sessao-minibanner {
+	float: right;
+	margin-right: 50px;
+	border-radius: 30px;
+	background-image: url('../img/banner4.gif');
+	width: 200px;
+}
+
+
+#sessao-sobre .sessao-descricao {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 300px);
+}
+
+footer {
+	height: 100px;
+	padding-top: 150px;
+	color: #9113da;
+}
+
+footer p {
+	text-align: center;
+	font-weight: bold;
+}
