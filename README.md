@@ -1,1 +1,1 @@
-# PokeDex-Primeira-Geracao-v2
+# PokeDex-Primeira-Geracao
